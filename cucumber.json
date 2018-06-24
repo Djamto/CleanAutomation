@@ -1,0 +1,122 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6652461156,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ScenarioCycle.initializeWebDriverBeforeStep()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4313456230,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ScenarioCycle.navigateToApplicationBeforeStep()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Navigate through some pages",
+        "description": "",
+        "id": "simpletestfeature;navigate-through-some-pages",
+        "after": [
+          {
+            "result": {
+              "duration": 64895806131,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ScenarioCycle.destroyWebDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9719830819,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ScenarioCycle.executeAfterScenarioListener()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 178163286,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The step for resetting the scenario data",
+            "match": {
+              "location": "SimpleTestSteps.givenTheStepForResettingTheScenarioData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7713211501,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The step for setting the scenario dummy data",
+            "match": {
+              "location": "SimpleTestSteps.givenTheStepForSettingTheScenarioDummyData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1100250939,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user has opened the about page",
+            "match": {
+              "location": "SimpleTestSteps.whenTheUserHasOpenedTheAboutPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 847775358,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user has opened the legal page",
+            "match": {
+              "location": "SimpleTestSteps.andTheUserHasOpenedTheLegalPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3006976287,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user has validated the legal page is changed",
+            "match": {
+              "location": "SimpleTestSteps.thenTheUserHasValidatedTheLegalpageIsChanged()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SimpleTestFeature",
+    "description": "",
+    "id": "simpletestfeature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/SimpleTest.feature"
+  }
+]
